@@ -1,0 +1,30 @@
+# Download and install Python (if not installed)
+# Go to https://www.python.org/downloads/ and download the latest version
+# Follow the installation instructions for your operating system
+
+# Open a terminal or command prompt
+
+# Create a directory for your project
+mkdir q_learning_project
+cd q_learning_project
+
+# Create a virtual environment named 'myenv'
+python -m venv myenv
+
+# Activate the virtual environment
+# On Windows:
+myenv\Scripts\activate
+
+# On macOS/Linux:
+source myenv/bin/activate
+
+# Install required packages
+pip install cmake scipy pygame gym matplotlib
+
+# Save your Q-learning code in a file, e.g., q_learning_taxi.py
+
+# Run the Q-learning code
+python q_learning_taxi.py
+
+# Deactivate the virtual environment when done
+deactivate
